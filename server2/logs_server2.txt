@@ -1,0 +1,12 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-845-711
+INFO:root:data received = {'val': 11, 'max_val': 13}, <class 'dict'>
+INFO:root:but I am sending = {'val': 12, 'max_val': 13}
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2022 00:22:37] "POST / HTTP/1.1" 200 -
+INFO:root:data received = {'val': 11, 'max_val': 13}, <class 'dict'>
+INFO:root:but I am sending = {'val': 12, 'max_val': 13}
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2022 00:22:48] "POST / HTTP/1.1" 200 -
